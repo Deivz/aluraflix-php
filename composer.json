@@ -1,0 +1,15 @@
+{
+    "name": "deivz/aluraflix",
+    "autoload": {
+        "psr-4": {
+            "Deivz\\Aluraflix\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deivz",
+            "email": "carlosd_oliveira@hotmail.com"
+        }
+    ],
+    "require": {}
+}
