@@ -34,11 +34,11 @@ class Video
         $erros = [];
 
         if (empty($dadosRequisicao['titulo'])) {
-            $erros[] = "O campo descrição não pode estar vazio!";
+            $erros[] = "O campo título não pode estar vazio!";
         }
 
         if (empty($dadosRequisicao['descricao'])) {
-            $erros[] = "O campo título não pode estar vazio!";
+            $erros[] = "O campo descrição não pode estar vazio!";
         }
 
         if (empty($dadosRequisicao['url'])) {

@@ -9,6 +9,8 @@ require __DIR__ . '/../vendor/autoload.php';
 set_error_handler("Deivz\Aluraflix\helpers\ErrorHandler::handleError");
 set_exception_handler("Deivz\Aluraflix\helpers\ErrorHandler::handleException");
 
+header('Content-type: application/json; charset = UTF-8');
+
 $routes = require '../src/routes/routes.php';
 $path = explode('/', $_SERVER['REQUEST_URI']);
 $route = '/' . $path[1] ?? null;
